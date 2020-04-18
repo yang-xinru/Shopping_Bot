@@ -8,7 +8,7 @@ import time
 
 def slot_check():
 	try:
-		browser=webdriver.Chrome('/Users/miemiemie/Downloads/chromedriver')
+		browser=webdriver.Chrome('/Users/blablabla/chromedriver') #Path to the chrome driver
 		browser.get('https://www.instacart.com/')
 		time.sleep(2)
 		login_button=browser.find_element_by_link_text('Log in')
